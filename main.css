@@ -1,0 +1,62 @@
+.encabezado {
+    background-color: #4B0082; /* Indigo */
+    border-bottom: #FFD700 solid 10px; /* Gold */
+    padding-left: 3%;
+    margin: -0.5%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://th.bing.com/th/id/OIP.lVG3bgC_Kw3QBaLOdn4XlAHaEo?rs=1&pid=ImgDetMain');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.cuadro {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 3%;
+    margin-top: 5%;
+    background-color: #D3D3D3; /* Light Gray */
+    border-style: solid;
+    border-color: #696969; /* Dim Gray */
+    border-radius: 15px;
+}
+.cuadro h1 {
+    text-align: center;
+    color: #2F4F4F; /* Dark Slate Gray */
+    border-bottom-style: solid;
+    border-color: #696969; /* Dim Gray */
+}
+.cuadro input {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #2F4F4F; /* Dark Slate Gray */
+    margin-bottom: 10px;
+}
+.correo {
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: #696969; /* Dim Gray */
+}
+.contraseña {
+    padding: 10px;
+    border-bottom-style: solid;
+    border-color: #696969; /* Dim Gray */
+}
+.submit {
+    border-style: solid;
+    border-color: #2F4F4F; /* Dark Slate Gray */
+    border-radius: 10px;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: #FFD700; /* Gold */
+    color: #4B0082; /* Indigo */
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #4B0082; /* Indigo */
+    color: #FFD700; /* Gold */
+}
